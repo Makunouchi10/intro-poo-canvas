@@ -1,0 +1,37 @@
+body{
+background:#f5f7ff;
+font-family: 'Segoe UI', sans-serif;
+}
+
+/* tarjetas */
+
+.canvas-card{
+border-radius:15px;
+transition:0.3s;
+}
+
+.canvas-card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* header de tarjetas */
+
+.card-header{
+background:linear-gradient(45deg,#6a5cff,#8fd3ff);
+color:white;
+font-size:18px;
+}
+
+/* canvas */
+
+canvas{
+border-radius:10px;
+max-width:100%;
+}
+
+/* footer */
+
+footer{
+font-size:14px;
+}
